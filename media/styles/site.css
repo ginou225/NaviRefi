@@ -1,0 +1,368 @@
+/* Scss Document */
+/* -- HOME PAGE -- */
+#hero {
+  background-image: url(../images/home.hero.mobile.1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 540px auto;
+  z-index: -2;
+  position: relative;
+  height: 444px;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    #hero {
+      background-image: url(../images/home.hero.1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 1440px auto;
+      z-index: -2;
+      position: relative;
+      height: 673px;
+      width: 100%; } }
+
+#intro {
+  background-image: url(../images/intro-background.mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 360px;
+  width: 100%;
+  position: relative;
+  margin-top: -1.64em; }
+  @media only screen and (min-width: 768px) {
+    #intro {
+      background-image: url(../images/intro-background.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% auto; } }
+
+#info-graph-block {
+  margin: auto auto 20px; }
+
+#outro {
+  background-image: url(../images/outro-background.mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100% auto;
+  height: auto;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    #outro {
+      background-image: url(../images/outro-background.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 100% auto;
+      /* height: 460px; */ } }
+
+.heroTxt {
+  margin: 235px 10px 100px; }
+  @media only screen and (min-width: 768px) {
+    .heroTxt {
+      margin: 180px 10px 0; } }
+
+.heroTxt h1 {
+  font-size: 1.65em;
+  line-height: 1.25em;
+  padding: 0 20px 10px 0; }
+  @media only screen and (min-width: 768px) {
+    .heroTxt h1 {
+      font-size: 3em;
+      line-height: 1.25em; } }
+  @media only screen and (max-width: 544px) {
+    .heroTxt h1 {
+      font-size: 1.5em;
+      padding: 20px 0 10px; } }
+
+#heroCTA {
+  z-index: 999;
+  position: relative;
+  top: -2em;
+  margin-left: .7em; }
+  @media only screen and (min-width: 768px) {
+    #heroCTA {
+      top: -17em;
+      left: 0; } }
+
+.heroCTAbttn {
+  padding-left: 15px !important; }
+
+.heroCTAtxt {
+  padding: 15px; }
+  @media only screen and (min-width: 768px) {
+    .heroCTAtxt {
+      left: -35px;
+      /*padding: 0 15px; */} 
+    }
+
+.introTxt {
+  margin: 50px 10px; }
+  @media only screen and (max-width: 544px) {
+    .introTxt {
+      margin: 20px 10px; } }
+
+#intro h2 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  text-align: left;
+  padding: 30px 0 0; }
+  @media only screen and (min-width: 768px) {
+    #intro h2 {
+      font-size: 2.5em;
+      line-height: 1.25em;
+      padding: 0; } }
+
+#intro p {
+  font-size: 1.05em;
+  line-height: 1.75em;
+  text-align: left;
+  padding: 5px 0 20px; }
+  @media only screen and (min-width: 768px) {
+    #intro p {
+      font-size: 1.5em;
+      color: #505259;
+      padding: 0 0 .75em; } }
+
+#outro .outroTxt {
+  padding: 80px 0 0; }
+  @media only screen and (max-width: 544px) {
+    #outro .outroTxt {
+      padding: 25px 10px 0; } }
+
+#outro h2 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+  padding: 20px 0 0; }
+  @media only screen and (max-width: 544px) {
+    #outro h2 {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      text-align: left; } }
+
+#outro p {
+  font-size: 1.05em;
+  color: #505259;
+  padding: 0 0 15px;
+  margin: .25em auto .5em;
+  text-align: left; }
+  @media only screen and (min-width: 768px) {
+    #outro p {
+      font-size: 28px;
+      margin: 0 auto;
+      text-align: center; } }
+
+#outro .footnote p {
+  font-size: .85em;
+  margin: 0 auto 5px;
+  padding: 30px 0; }
+  @media only screen and (min-width: 768px) {
+    #outro .footnote p {
+      padding: 25px 180px 5px; } }
+
+.outroText .bttnBody {
+  margin: 24px auto; }
+
+.homeIconBlck {
+  text-align: center; }
+
+.homeIconBlck h3 {
+  font-size: 28px; }
+  @media only screen and (max-width: 544px) {
+    .homeIconBlck h3 {
+      font-size: 20px;
+      text-align: left;
+      margin-left: 45px;
+      padding: 15px 0 0; } }
+
+.homeIconBlck p {
+  font-size: 20px;
+  padding: 0 40px; }
+  @media only screen and (max-width: 544px) {
+    .homeIconBlck p {
+      font-size: 14px;
+      text-align: left;
+      margin-left: 46px;
+      padding: 0; } }
+
+.homeIcon {
+  width: 100px;
+  height: auto;
+  margin: auto;
+  padding: 10px 0; }
+  @media only screen and (max-width: 544px) {
+    .homeIcon {
+      width: 37px;
+      float: left;
+      vertical-align: top; } }
+
+/* UTILITIES */
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+@media only screen and (min-width: 544px) {
+  .hide {
+    line-height: 0;
+    display: none;
+    border-bottom: none; } }
+
+@media only screen and (max-width: 544px) {
+  .hide {
+    line-height: 0;
+    display: none;
+    border-bottom: none; } }
+
+/* Scss Document */
+/* -- HEADER -- */
+#header {
+  padding: 10px 0;
+  box-shadow: 0 8px 6px -6px #9f9fa3;
+  z-index: 1; }
+
+.hdLogo {
+  width: 60px;
+  height: auto;
+  padding: 0; }
+
+.hdBttns {
+  padding: 5px 0; }
+
+.hdBttnLeft,
+.hdBttnRight {
+  padding-left: 10px; }
+
+/* Scss Document */
+/* -- FOOTER -- */
+#footer-nav-primary {
+  padding: 20px 0 20px 20px; }
+  @media only screen and (max-width: 544px) {
+    #footer-nav-primary {
+      padding: 20px 0; } }
+
+.ftUpper {
+  background-color: #014ca0; }
+
+.ftLower {
+  background-color: #0057b8; }
+
+.ftLogo {
+  display: block;
+  margin: auto;
+  padding: 30px 0 25px;
+  width: 117px;
+  height: auto; }
+
+.ftMenu {
+  list-style: none;
+  text-align: center;
+  padding: 0; }
+
+.ftMenu li {
+  font-size: 14px;
+  line-height: 1.75em;
+  border-bottom: 1px solid #417cbe; }
+  @media only screen and (min-width: 768px) {
+    .ftMenu li {
+      text-decoration: none;
+      white-space: nowrap;
+      display: block;
+      border-bottom: none; } }
+
+.abtMenu {
+  margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .abtMenu {
+      margin: 0 8px; } }
+
+.abtMenu li {
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #417cbe; }
+  @media only screen and (min-width: 768px) {
+    .abtMenu li {
+      display: block;
+      padding: 0 15px;
+      border-bottom: 0 none; } }
+
+.abtMenu li a,
+.ftMenu li a {
+  color: #ffffff; }
+
+.rghtBrdrWht {
+  border-right-width: 0px;
+  border-right-style: none; }
+  @media only screen and (min-width: 768px) {
+    .rghtBrdrWht {
+      border-right-width: 1px;
+      border-right-color: #417cbe;
+      border-right-style: solid; } }
+
+#footer-text {
+  padding-left: 0; }
+  @media only screen and (min-width: 768px) {
+    #footer-text {
+      padding-left: 3.5rem; } }
+
+#footer-text p,
+#footer-seo p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 20px 0; }
+  @media only screen and (max-width: 544px) {
+    #footer-text p,
+    #footer-seo p {
+      font-size: 12px;
+      padding: 15px 0; } }
+
+/* Scss Document */
+/* -- BUTTONS -- */
+input[type=button],
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 1.12em;
+    padding: 4px 20px; */
+  text-align: center;
+  min-width: 8em;
+  color: #ffffff;
+  background-color: #0057B8; }
+  input[type=button].disabled,
+  .button.disabled {
+    border-color: #9b9b9b;
+    color: #9b9b9b;
+    margin: 0 auto !important; }
+
+.button:hover, .button:focus, .button:active, .button.active, .open > .dropdown-toggle.button {
+  color: #fff;
+  background-color: #FF4629;
+  /*border-color: #285e8e;*/
+  /*set the color you want here*/ }
+
+.buttonWhite {
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 1.2em; */
+  text-align: center;
+  min-width: 8em;
+  color: #0057B8;
+  background-color: #ffffff;
+  border: solid 0.5px #0057B8; }
+  .buttonWhite.disabled {
+    border-color: #9b9b9b;
+    color: #9b9b9b;
+    margin: 0 auto !important; }
+
+.bttnHd {
+  font-size: .90em;
+  padding: 6px 25px;
+  margin: auto 5px; }
+
+.bttnBody {
+  font-size: 1.12em;
+  padding: 15px 20px;
+  margin: 5px 0; }
